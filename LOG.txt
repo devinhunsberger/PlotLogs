@@ -1,0 +1,90 @@
+BlowTorchTests.txt
+Maximum Temp: 527.8208
+Average Temp: 274.94543604938275
+Video Duration: 29.634
+
+
+Test1.txt
+Maximum Temp: 1544.75
+Average Temp: 686.0840142735937
+Video Duration: 31.37
+
+
+Test2.txt
+Maximum Temp: 1515.667
+Average Temp: 999.9956622222227
+Video Duration: 21.836
+
+
+Test3.txt
+Maximum Temp: 1472.984
+Average Temp: 920.4014562032868
+Video Duration: 22.234
+
+
+Test4.txt
+Maximum Temp: 1312.589
+Average Temp: 663.3740631559122
+Video Duration: 71.642
+
+
+Test5.txt
+Maximum Temp: 1274.262
+Average Temp: 625.387059161206
+Video Duration: 76.239
+
+
+Test6a.txt
+Maximum Temp: 1628.99
+Average Temp: 566.358305264939
+Video Duration: 177.339
+
+
+Test6b.txt
+Maximum Temp: 1416.976
+Average Temp: 486.6744832480707
+Video Duration: 302.273
+
+
+Test7.txt
+Maximum Temp: 1881.714
+Average Temp: 529.7842611303176
+Video Duration: 200.47
+
+
+Test8.txt
+Maximum Temp: 1552.771
+Average Temp: 845.386473270652
+Video Duration: 49.568
+
+
+Test9.txt
+Maximum Temp: 1427.057
+Average Temp: 893.293098119385
+Video Duration: -0.033
+
+
+Test10a.txt
+Maximum Temp: 1192.602
+Average Temp: 415.1578792392343
+Video Duration: 139.269
+
+
+Test10b.txt
+Maximum Temp: 1229.803
+Average Temp: 577.226337402017
+Video Duration: 59.469
+
+
+Test11.txt
+Maximum Temp: 1557.242
+Average Temp: 540.4828119971357
+Video Duration: 325.938
+
+
+Test12.txt
+Maximum Temp: 1351.235
+Average Temp: 558.7516524558239
+Video Duration: -0.033
+
+
