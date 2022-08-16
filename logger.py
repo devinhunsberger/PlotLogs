@@ -12,12 +12,20 @@ while(True):
 # Create 2d matrix
 datum = []
 with open(fname) as f:
-    for i in f:
+    last = 0
+    next(f)
+    for i in f.readlines()[1:]:
         grp = i.split('\t')
-        datum.append(grp)
+        if last < int(grp[0]):
+            datum.append(grp)
+            last = int(grp[0])
+        else:
+            print(last)
+            print(grp[0])
+            break
 
 # Create 1d matrix for temperature
-i = 1
+i = 0
 temp = []
 while i < len(datum):
     temp.append(float(datum[i][2]))
@@ -33,12 +41,12 @@ maxTempDatum = 'Maximum Temp: ' + str(max)
 # Get Average Temp
 avgMax = 0
 for i in temp:
-    avgMax += i
+     avgMax += i
 avgMax = avgMax / (len(temp) + 1)
 avgTempDatum = 'Average Temp: ' + str(avgMax)
 
 # Create 1d time matrix
-i = 1
+i = 0
 duration = []
 while i < len(datum):
     duration.append(datum[i][1])
